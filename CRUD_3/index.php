@@ -31,5 +31,10 @@
 
 			
 			//mudei 
+<<<<<<< HEAD
 			//terceiro commit
+=======
+			
+			//outro commit
+>>>>>>> 57416edb92fcecab6dd1adb7eee411bdb9c510a8
 			
