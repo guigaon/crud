@@ -15,6 +15,7 @@
 	* identifica se a url está vazia, se sim, envia para professor.php, se nao achar nenhum arquivo existente, vai para pagina de erro
 	* @access private 
 	*/
+	if(){
 	$url = (isset($_GET['url'])) ? $_GET['url']:'professores.php';
 			$url = array_filter(explode('/',$url));
 			
@@ -25,6 +26,9 @@
 			}else{
 				include '404.php';
 			}			
+
+		}
+
 			
 			
 			
